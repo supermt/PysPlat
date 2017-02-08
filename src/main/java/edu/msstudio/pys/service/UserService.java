@@ -3,7 +3,6 @@ package edu.msstudio.pys.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import edu.msstudio.pys.Exception.UserException;
 import edu.msstudio.pys.model.User;
 import edu.msstudio.pys.repository.UserRepository;
 

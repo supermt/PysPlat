@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import edu.msstudio.pys.model.User;
 import edu.msstudio.pys.service.UserService;
 
 @RestController

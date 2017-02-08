@@ -1,6 +1,5 @@
 package edu.msstudio.pys.repository;
 
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import edu.msstudio.pys.model.User;

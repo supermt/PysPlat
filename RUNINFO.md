@@ -17,4 +17,4 @@ spring.datasource.password = MysqlRoot
 
 该方法可以具体参考 [Spring 官方文献](http://spring.io/guides/gs/rest-service/)
 
-2. （不推荐，很麻烦） 可以将本项目打包成war包方便部署，但是需要在pom.xml和web.xml做出相应的修改，修改过程相对麻烦不在这里描述，请参考链接 [spring-boot项目 war包发布](http://blog.csdn.net/r28_11/article/details/50802336)
+2. （不推荐，很麻烦） 可以将本项目打包成war包方便部署，但是需要在 pom.xml 和 web.xml 做出相应的修改，修改过程相对麻烦不在这里描述，请参考链接 [spring-boot项目 war包发布](http://blog.csdn.net/r28_11/article/details/50802336)

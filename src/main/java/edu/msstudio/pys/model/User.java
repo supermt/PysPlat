@@ -1,22 +1,17 @@
 package edu.msstudio.pys.model;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.springframework.data.domain.Persistable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.*;
 
-@Data
 @Entity
 @Table(name = "user")
-@NoArgsConstructor
 public class User {
 
-	@Getter
-    @Setter
     @Id
     @Column(name = "id")
     private Long id;
@@ -27,5 +22,29 @@ public class User {
 	@Column(name = "password", nullable = false)
     @JsonIgnore
     private String userPass;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getUserPass() {
+		return userPass;
+	}
+
+	public void setUserPass(String userPass) {
+		this.userPass = userPass;
+	}
 	
 }
