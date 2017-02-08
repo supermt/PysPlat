@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.1.RELEASE</version>
+        <version>1.4.2.RELEASE</version>
     </parent>
 
     <dependencies>
@@ -19,14 +19,7 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-		    <version>6.0.5</version>
 		</dependency>
-	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-	<dependency><!-- 自动get set 填写 -->
-	    <groupId>org.projectlombok</groupId>
-	    <artifactId>lombok</artifactId>
-	    <version>1.16.10</version>
-	</dependency>
 			
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,7 +46,19 @@
         <dependency>
         	<groupId>joda-time</groupId><!-- 时间格式包 -->
         	<artifactId>joda-time</artifactId>
-        	<version>2.2</version>
+        </dependency>
+        
+       	<!-- Swagger UI denpendencies -->
+		<dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.2.2</version>
         </dependency>
     </dependencies>
 
